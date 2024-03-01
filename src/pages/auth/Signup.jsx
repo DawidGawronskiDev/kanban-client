@@ -35,7 +35,6 @@ const Signup = () => {
         setErrors([...responseData.errors]);
       }
 
-      console.log(response.status);
     } catch (err) {
       console.error("Error: ", err);
     }

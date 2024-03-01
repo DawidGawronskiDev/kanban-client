@@ -35,6 +35,8 @@ const Login = () => {
       return;
     }
 
+    console.log(responseData.user)
+
     setIsAuth(true);
   };
 
